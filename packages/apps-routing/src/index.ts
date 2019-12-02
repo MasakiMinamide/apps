@@ -6,7 +6,7 @@ import { Routing, Routes } from './types';
 
 import appSettings from '@polkadot/ui-settings';
 
-import template from './123code';
+// import template from './123code';
 import accounts from './accounts';
 import addressbook from './addressbook';
 import claims from './claims';
@@ -26,6 +26,7 @@ import sudo from './sudo';
 import toolbox from './toolbox';
 import transfer from './transfer';
 import treasury from './treasury';
+import mGovernance from './m-governance';
 
 const routes: Routes = appSettings.uiMode === 'light'
   ? ([] as Routes).concat(
@@ -38,6 +39,7 @@ const routes: Routes = appSettings.uiMode === 'light'
     genericAsset,
     null,
     staking,
+    mGovernance,
     democracy,
     council,
     // TODO Not sure about the inclusion of treasury & parachains here
@@ -54,6 +56,7 @@ const routes: Routes = appSettings.uiMode === 'light'
     genericAsset,
     null,
     staking,
+    mGovernance,
     democracy,
     council,
     treasury,
@@ -66,8 +69,7 @@ const routes: Routes = appSettings.uiMode === 'light'
     null,
     settings,
     toolbox,
-    js,
-    template
+    js
   );
 
 const setup: Routing = {

@@ -2060,6 +2060,13 @@
     "@polkadot/types" "^0.98.0-beta.0"
     "@polkadot/util-crypto" "^1.7.1"
 
+"@polkadot/apps-routing@^0.38.0-beta.8":
+  version "0.38.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@polkadot/apps-routing/-/apps-routing-0.38.0-beta.8.tgz#1679638a5aaa3e62dddaa0565482480ef3c6c1fd"
+  integrity sha512-LXDXV9FvF5ccO7suJ/cunTEHa7dpTIqsoKN9EKNbcepKj33zs5e5C4RCc4OHc32z7gu8rVmhYnMiEdFg7q90AQ==
+  dependencies:
+    "@babel/runtime" "^7.7.4"
+
 "@polkadot/dev-react@^0.32.0-beta.15":
   version "0.32.0-beta.15"
   resolved "https://registry.yarnpkg.com/@polkadot/dev-react/-/dev-react-0.32.0-beta.15.tgz#20433927ab30b9a94c0e258ebf9b81e1a1e46f0e"

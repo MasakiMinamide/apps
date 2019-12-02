@@ -1,0 +1,16 @@
+{
+  "name": "@polkadot/app-m-governance",
+  "version": "0.38.0-beta.0",
+  "description": "A basic app to interact with M-Governance runtime module.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Masaki Minamide <masakiminamide@gmail.com>",
+  "maintainers": [
+    "Masaki Minamide <masakiminamide@gmail.com>"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.7.4",
+    "@polkadot/react-components": "^0.38.0-beta.0"
+  }
+}

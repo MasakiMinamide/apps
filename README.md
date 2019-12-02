@@ -1,8 +1,11 @@
-[![polkadotjs](https://img.shields.io/badge/polkadot-js-orange?style=flat-square)](https://polkadot.js.org)
-![license](https://img.shields.io/badge/License-Apache%202.0-blue?logo=apache&style=flat-square)
-[![npm](https://img.shields.io/npm/v/@polkadot/apps?logo=npm&style=flat-square)](https://www.npmjs.com/package/@polkadot/apps)
-[![beta](https://img.shields.io/npm/v/@polkadot/apps/beta?label=beta&logo=npm&style=flat-square)](https://www.npmjs.com/package/@polkadot/apps)
-[![maintainability](https://img.shields.io/codeclimate/maintainability-percentage/polkadot-js/apps?logo=code-climate&style=flat-square)](https://codeclimate.com/github/polkadot-js/apps)
+# M-Governance-App
+
+## How to Run
+
+```
+yarn install
+yarn run start
+```
 
 # @polkadot/apps
 
@@ -15,6 +18,7 @@ This can be accessed as a hosted application via [https://polkadot.js.org/apps/]
 The repo is split into a number of packages, each representing an application. These are -
 
 - [apps](packages/apps/) This is the main entry point. It handles the selection sidebar and routing to the specific application being displayed.
+- [app-m-governance](packages/app-m-governance/) A basic app to interact with M-Governance runtime.
 - [app-accounts](packages/app-accounts/) A basic account management app.
 - [app-address-book](packages/app-address-book/) A basic address management app.
 - [app-democracy](packages/app-democracy/) A basic voting app, allowing votes on activate proposals and referenda.

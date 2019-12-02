@@ -3,21 +3,22 @@
 // of the Apache-2.0 license. See the LICENSE file for details.
 
 import { Routes } from './types';
-
-import Democracy from '@polkadot/app-democracy';
+import MGovernance from '@polkadot/app-m-governance';
 
 export default ([
   {
-    Component: Democracy,
+    Component: MGovernance,
     display: {
+      isHidden: false,
+      needsAccounts: true,
       needsApi: [
-        'query.democracy.nextTally'
+        'tx.balances.transfer'
       ]
     },
     i18n: {
-      defaultValue: 'Democracy'
+      defaultValue: 'MGovernance'
     },
-    icon: 'calendar check',
-    name: 'democracy'
+    icon: 'columns',
+    name: 'm-governance'
   }
 ] as Routes);
